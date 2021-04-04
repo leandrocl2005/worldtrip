@@ -23,7 +23,7 @@ export default function Gallery({ countries }: Continent) {
       >Cidades 100+</Heading>
       <SimpleGrid as="ul" minChildWidth="256px" spacing="45px">
         {countries.map(country => <Card
-          id={country.id}
+          key={country.id}
           capital={country.capital}
           name={country.name}
           image={country.image}

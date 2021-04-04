@@ -1,7 +1,10 @@
-import { Flex, Image, Text, Box } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import TravelTypesItem from "./TravelTypesItem";
 
 export default function TravelTypes() {
+
+
+
   return (
     <Flex
       w="100%"
@@ -9,6 +12,8 @@ export default function TravelTypes() {
       px="16"
       mt="32"
       mb="16"
+      flexWrap="wrap"
+
     >
       <TravelTypesItem image='/cocktail.svg' text="Vida noturna" />
       <TravelTypesItem image='/surf.svg' text="Praia" />

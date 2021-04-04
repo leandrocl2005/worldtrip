@@ -1,15 +1,20 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
-import { Country } from "./types";
 
-export default function Card({ id, image, name, capital, flag }: Country) {
+interface CardProps {
+  image: string;
+  flag: string;
+  capital: string;
+  name: string;
+}
+
+export default function Card({ image, name, capital, flag, ...rest }: CardProps) {
   return (
     <Flex
       w="100%"
       as="li"
-      key={id}
       direction="column"
       border="1px solid #FFBA0833"
-
+      {...rest}
     >
       <Image w="100%" h="173px" objectFit="cover" src={image} alt={name} />
       <Flex

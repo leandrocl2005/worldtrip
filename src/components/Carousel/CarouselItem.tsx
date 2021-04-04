@@ -21,15 +21,15 @@ export default function CarouselItem({
         backgroundSize="cover"
         cursor="pointer"
         w="100%"
-        h="450px">
+        h={["250px", "450px"]}>
         <Flex
           justifyContent="center"
           alignItems="center"
           direction="column"
           w="100%"
         >
-          <Text fontWeight="600" fontSize="48px">{name}</Text>
-          <Text fontWeight="500" fontSize="24px">{description}</Text>
+          <Text fontWeight="600" fontSize={["24px", "48px"]}>{name}</Text>
+          <Text fontWeight="500" fontSize={["14px", "24px"]}>{description}</Text>
         </Flex>
       </Flex>
     </Link>

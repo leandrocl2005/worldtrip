@@ -13,22 +13,24 @@ export default function TextInfo({ text, numberOfCountries, numberOfLanguages }:
       w="100%"
       justifyContent="space-around"
       alignItems="center"
-      mt="16"
+      direction={["column", "column", "column", "row", "row"]}
+      mt={["8", "8", "8", "8", "16"]}
     >
       <Box
-        w="40%"
+        w={["80%", "80%", "80%", "40%", "40%"]}
       >
         <Text
           textAlign="justify"
           fontWeight="400"
-          fontSize="24px"
+          fontSize={["16px", "20px", "20px", "24px", "24px"]}
           color="gray.500"
         >
           {text}
         </Text>
       </Box>
       <Box
-        w="40%"
+        w={["80%", "80%", "80%", "40%", "40%"]}
+        mt={["4", "4", "4", "0", "0"]}
       >
         <Flex
           w="100%"

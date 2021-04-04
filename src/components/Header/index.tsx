@@ -10,31 +10,31 @@ export default function Header() {
   const { asPath } = useRouter();
 
   return (
-    <Flex
-      as='header'
-      w="100%"
-      mx="auto"
-      alignItems="center"
-      justifyContent="center"
-      px="6"
-      position="relative"
-      h="100px">
+    <Link href="/">
+      <Flex
+        as='header'
+        w="100%"
+        mx="auto"
+        alignItems="center"
+        justifyContent="center"
+        px="6"
 
-      { asPath !== "/" &&
-        <Link href="/">
+        h={["50px", "100px"]}>
+
+        {asPath !== "/" &&
+
           <Icon
             as={RiArrowDropLeftLine}
-            position="absolute"
-            fontSize="36px"
+            fontSize={["25px", "36px"]}
             color="gray.200"
-            top="30px"
+            position="absolute"
+            top={["15px", "30px"]}
             left="20px"
             cursor="pointer"
           />
-        </Link>
-      }
-      <Logo />
-
-    </Flex>
+        }
+        <Logo />
+      </Flex>
+    </Link >
   )
 }

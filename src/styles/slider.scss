@@ -13,3 +13,18 @@ span.swiper-pagination-bullet {
     background: #ffba08;
   }
 }
+
+@media (max-width: 900px) {
+  div.swiper-button-prev::after,
+  div.swiper-button-next::after {
+    color: #ffba08;
+    font-size: 20px;
+  }
+
+  span.swiper-pagination-bullet {
+    background: #999999;
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+  }
+}
