@@ -1,4 +1,5 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Icon, Text, Tooltip } from "@chakra-ui/react";
+import { RiInformationLine } from 'react-icons/ri';
 
 interface TextInfoProps {
   text: string;
@@ -84,8 +85,27 @@ export default function TextInfo({ text, numberOfCountries, numberOfLanguages }:
               fontWeight="600"
               color="gray.500"
             >
-              Cidades +100
-          </Text>
+              Cidades 100+
+              <Tooltip
+                label="100+ são as melhores"
+                bg="#fefefe"
+                color="gray.100"
+                borderRadius="4"
+                placement="bottom-start"
+                fontWeight="300"
+                fontSize="14px"
+                hasArrow
+              >
+                <span>
+                  <Icon
+                    as={RiInformationLine}
+                    fontSize="16px"
+                    color="gray.200"
+                    ml="1"
+                  />
+                </span>
+              </Tooltip>
+            </Text>
           </Box>
         </Flex>
       </Box>
