@@ -15,7 +15,7 @@ export default function Home() {
       <Header />
       <Banner />
       <TravelTypes />
-      <Divider as="hr" w="20%" borderWidth="2px" borderColor="gray.500" />
+      <Divider as="hr" w="20%" borderWidth="2px" borderColor="gray.500" bg="gray.500" />
       <Heading
         w="100%"
         textAlign="center"

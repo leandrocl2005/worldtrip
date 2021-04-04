@@ -11,61 +11,24 @@ const continents = [
     name: "Europa",
     description: "O continente mais antigo",
     carrouselImage: '/europe.png',
-    jumbotronImage: '',
-    countries: [
-      {
-        id: 1,
-        name: "Áustralia",
-        flagImage: '',
-        galleryImage: ''
-      }
-    ]
-
   },
   {
     id: 2,
     name: "Africa",
     description: "Conheça safaris impressionantes",
-    carrouselImage: '/africa.jpg',
-    jumbotronImage: '',
-    countries: [
-      {
-        id: 1,
-        name: "Áustralia",
-        flagImage: '',
-        galleryImage: ''
-      }
-    ]
+    carrouselImage: 'https://images.unsplash.com/photo-1481435471848-a5f4293c601b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=736&q=80',
   },
   {
     id: 3,
     name: "Ásia",
     description: "Uma viajem imersa de tradições",
-    carrouselImage: '/asia.jpg',
-    jumbotronImage: '',
-    countries: [
-      {
-        id: 1,
-        name: "Áustralia",
-        flagImage: '',
-        galleryImage: ''
-      }
-    ]
+    carrouselImage: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
   },
   {
     id: 4,
     name: "América",
     description: "Descubra paisagens incríveis",
-    carrouselImage: '/america.jpg',
-    jumbotronImage: '',
-    countries: [
-      {
-        id: 1,
-        name: "Áustralia",
-        flagImage: '',
-        galleryImage: ''
-      }
-    ]
+    carrouselImage: '/america.jpg'
   },
   {
     id: 5,

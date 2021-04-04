@@ -36,42 +36,42 @@ const continents = [
     numberOfCountries: 50,
     numberOfLanguages: 60,
     carrouselImage: '/europe.png',
-    jumbotronImage: '/europeJumb.jpg',
+    jumbotronImage: 'https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
     countries: [
       {
         id: 1,
         name: "Reino Unido",
         flag: '/reinoUnidoFlag.png',
         capital: 'Londres',
-        image: '/reinoUnido.png'
+        image: 'https://images.unsplash.com/photo-1454537468202-b7ff71d51c2e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80'
       },
       {
         id: 2,
         name: "França",
         flag: '/francaFlag.png',
         capital: 'Paris',
-        image: '/franca.png'
+        image: 'https://images.unsplash.com/photo-1507666664345-c49223375e33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80'
       },
       {
         id: 3,
         name: "Itália",
         flag: '/italiaFlag.png',
         capital: 'Roma',
-        image: '/italia.png'
+        image: 'https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
       },
       {
         id: 4,
         name: "República Tcheca",
         flag: '/republicaTchecaFlag.png',
         capital: 'Praga',
-        image: '/republicaTcheca.png'
+        image: 'https://images.unsplash.com/photo-1562624475-96c2bc08fab9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
       },
       {
         id: 5,
         name: "Holanda",
         flag: '/holandaFlag.png',
         capital: 'Amsterdã',
-        image: '/holanda.png'
+        image: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
       },
     ]
   },
@@ -83,14 +83,14 @@ const continents = [
     numberOfCountries: 54,
     numberOfLanguages: 7,
     carrouselImage: '/africa.jpg',
-    jumbotronImage: '/africaJumb.jpg',
+    jumbotronImage: 'https://images.unsplash.com/photo-1433770082169-c9bfaf2c323f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
     countries: [
       {
         id: 1,
         name: "África do Sul",
         flag: '/africaDoSulFlag.png',
         capital: 'Joanesburgo',
-        image: '/africaDoSul.jpg'
+        image: 'https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80'
       }
     ]
   },
@@ -102,42 +102,42 @@ const continents = [
     numberOfCountries: 50,
     numberOfLanguages: 70,
     carrouselImage: '/asia.jpg',
-    jumbotronImage: '/asiaJumb.jpg',
+    jumbotronImage: 'https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
     countries: [
       {
         id: 1,
         name: "China",
         flag: '/chinaFlag.png',
-        capital: 'Pequim',
-        image: '/china.jpg'
+        capital: 'Shangai',
+        image: 'https://images.unsplash.com/photo-1517309230475-6736d926b979?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
       },
       {
         id: 2,
         name: "India",
         flag: '/indiaFlag.png',
-        capital: 'Nova Delhi',
-        image: '/india.jpg'
+        capital: 'Agra',
+        image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80'
       },
       {
         id: 3,
         name: "Tailândia",
         flag: '/tailandiaFlag.png',
         capital: 'Bangkok',
-        image: '/tailandia.jpg'
+        image: 'https://images.unsplash.com/photo-1548577637-bc7691b1deb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
       },
       {
         id: 4,
         name: "Russia",
         flag: '/russiaFlag.png',
         capital: 'Moscow',
-        image: '/russia.jpg'
+        image: 'https://images.unsplash.com/photo-1580228686482-d6b575761a29?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
       },
       {
         id: 5,
         name: "Japão",
         flag: '/japaoFlag.png',
         capital: 'Tóquio',
-        image: '/japao.jpg'
+        image: 'https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
       },
     ]
   },
@@ -149,14 +149,14 @@ const continents = [
     numberOfCountries: 35,
     numberOfLanguages: 8,
     carrouselImage: '/america.jpg',
-    jumbotronImage: '/america.jpg',
+    jumbotronImage: 'https://images.unsplash.com/photo-1555363209-11a72e372ccc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80',
     countries: [
       {
         id: 1,
         name: "Brasil",
         flag: '/brasilFlag.png',
         capital: 'Rio de Janeiro',
-        image: '/brasil.jpg'
+        image: 'https://images.unsplash.com/photo-1593854586136-2edae149504c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80'
       }
     ]
   },
@@ -175,14 +175,14 @@ const continents = [
         name: "Áustralia",
         flag: '/australiaFlag.png',
         capital: 'Sidney',
-        image: '/australia.jpg'
+        image: 'https://images.unsplash.com/photo-1548296404-93c7694b2f91?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80'
       },
       {
         id: 2,
         name: "Indonésia",
         flag: '/indonesiaFlag.png',
-        capital: 'Jacarta',
-        image: '/indonesia.jpg'
+        capital: 'Labuan Bajo',
+        image: 'https://images.unsplash.com/photo-1589309736404-2e142a2acdf0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
       }
     ]
   },

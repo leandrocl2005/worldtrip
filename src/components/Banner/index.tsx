@@ -9,6 +9,7 @@ export default function Banner() {
       backgroundImage="url(./BannerBackground.png)"
       justifyContent="space-around"
       alignItems="center"
+      px="16"
     >
       <Box>
         <Text
